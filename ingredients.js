@@ -3,13 +3,14 @@ const ingredients = ["eggs", "milk", "flour", "sugar", "baking soda", "baking po
 // Write a while loop that prints out the contents of ingredients:
 let i = 0;
 while (i < ingredients.length){
-  console.log(ingredients[i])
+  console.log(ingredients[i]);
+  i++;
 }
 // Write a for loop that prints out the contents of ingredients:
-for (i =0; i < ingredients.length; i++){
-  console.log(ingredients[i]);
+for (j = 0; j < ingredients.length; j++){
+  console.log(ingredients[j]);
 }
 // Write any loop (while or for) that prints out the contents of ingredients backwards:
-for (i = ingredients.length; i = 0; i--){
-  console.log(ingredients[i]);
+for (k = ingredients.length; k = 0; k--){
+  console.log(ingredients[k]);
 }
